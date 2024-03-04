@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="kh">
+<head>
+    <title>get Element</title>
+</head>
+<body>
+    <p>One</p>
+    <p class="tf">Two</p>
+    <p id="three">three</p>
+    <p class="tf">four</p>
+    <p>Five</p>
+    
+    <script type="text/javascript">
+
+        /*
+            document object (html document = web page)
+            ជាវត្ថុប្រើប្រាស់ដែលអាចឲ្យចូលទៅកាន់នឹងប្រើប្រាស់វេបផេក។
+
+            ឧ​១ ជ្រើសយកធាតុមានឲ្យអាយធីសម្គាល់ three ពីវេបផេក
+            ឧ​២ ជ្រើសយកធាតុនៅក្នុងថ្នាក់សម្គាល់ tf ពីវេបផេក
+            ឧ​៣ ជ្រើសយកធាតុនៅ P tf ពីវេបផេក
+        */
+        //type selecter
+        var p = document.getElementsByTagName("p");
+        alert(p.length);
+
+        //ID selecter 
+        var three = document.getElementById("three");
+        
+        // if(three != null)
+        //     alert("Selected successfully!")
+        // else
+        //     alert("Fail to selected!")
+        
+        //Class selecter
+        var tf = document.getElementsByClassName("tf")
+        if(tf.length > 0)
+            alert(tf.length)
+        else
+            alert(tf.length)
+
+        /*  ចំណាំ
+        Collection = collection of object = array of object 
+        
+
+        បង្កើត Arrayq
+        var arrayName  = [ទិន្នន័យក្នុងធាតុទី១,ទិន្នន័យក្នុងធាតុទី២,ទិន្នន័យក្នុងធាតុទី៣,។ល។]
+        
+        or 
+
+        var arrayName =[
+                        ទិន្នន័យក្នុងធាតុទី១,
+                        ទិន្នន័យក្នុងធាតុទី២,
+                        ទិន្នន័យក្នុងធាតុទី៣,
+                        ។ល។
+                        ]
+
+        length ជា Property ដែលប្រាប់ប្រវែង Array (ចំនួនធាតុ)
+        */
+    </script>
+</body>
+</html>

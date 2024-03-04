@@ -1,0 +1,32 @@
+/* 16/10/2023 
+    របៀបសរសេរ CSS FILE 
+    សិក្សាអំពី Selecter ថ្មី ២ 
+    
+    ១​ child combinator ឬ child selector ប្រើសញ្ញាដកឃ្លាដើម្បីជ្រើសយកកូនធាតុមួយឬច្រើន។
+    របៀបសរសេរ មេធាតុ > កូនធាតុ
+
+    ២ descendant combinator ឬ descendant selector ប្រើសញ្ញាដកឃ្លាដើម្បីជ្រើសរើសយកធាតុជំនាន់ក្រោយដូចជាកូនធាតុ ចៅធាតុ ។ល។
+    របៀបសរសេរ ធាតុជំនាន់មុន ធាតុជំនាន់ក្រោយ 
+
+    :link ជ្រើសរើសយកតំណទាំងឡាយណាដែលមិនទាន់បានចុចទស្សនា
+    :hover ជ្រើសរើសយកតំណរទាំងឡាយណាដែលបានចុចទស្សនាហើយ
+    :visited ជ្រើសរើសយកតំណទាំងឡាយណាដែលបានចុចទស្សនារួចហើយ
+    
+    ចំណាំ 
+
+    selector ដែលផ្ដើមដោយសញ្ញា  : គេហៅវាថាជា Pseudo-class selector
+
+    ពេលដែលគេប្រើ List selecter ស្មើនឹងពាក្យ Group selecter 
+*/
+#hMenu a :link, #hMenu a:visited{
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    padding: 4px 8px;
+    text-align: center;
+}
+#hMenu a :hover{
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 4px;
+}

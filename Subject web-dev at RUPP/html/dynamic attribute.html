@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Hidden{
+            width: 0px;
+            height:0px;
+            float: right;
+        }
+        #da{
+            text-align: center;
+            border: 1px solid lightgray;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class=> 
+        <img class="Hidden" src="../media/RUPP1.jpg" alt="" id="">
+        <img class="Hidden" src="../media/RUPP2.jpg" alt="" id="">
+        <img class="Hidden" src="../media/RUPP3.jpg" alt="" id="">
+        <img class="Hidden" src="../media/RUPP4.jpg" alt="" id="">
+        <img src="../media/RUPP5.jpg" alt="" id="da">
+
+    </div> -->
+    <div class=> 
+        <img class="Hidden" src="../media/update image/Building A.jpg" alt="" id="">
+        <img class="Hidden" src="../media/update image/Ceremony Hall.jpg" alt="" id="">
+        <img class="Hidden" src="../media/update image/CJCC.jpg" alt="" id="">
+        <img class="Hidden" src="../media/update image/CKCC.jpg" alt="" id="">
+        <img src="../media/update image/IFL.jpg" alt="" id="da">
+        <p class="title">Building</p>
+
+    </div>
+
+    <script type="text/javascript">
+        var da = document.getElementById("da");
+        var title = document.getElementById("title");
+
+        //Array ២វិមាត្រ(តារាង)
+        var slides = [
+            ["../media/update image/Building A.jpg", "Building A"],
+            ["../media/update image/Ceremony Hall.jpg","Ceremony Hall"],
+            ["../media/update image/CJCC.jpg","IFL"],
+            ["../media/update image/CKCC.jpg","Cambodia-Korea Cooperation Center"],
+            ["../media/update image/IFL.jpg","Cambodia - Japan Cooperation Center"]
+        ];
+        window.setInterval(function(){
+            if (i == 5)
+            i = 0;
+        da.src = slides[++i][0];
+        title.textConten=slides[i][1];
+        
+        }, 1000);
+    </script>
+</body>
+</html>

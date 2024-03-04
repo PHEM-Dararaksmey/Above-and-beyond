@@ -1,0 +1,10 @@
+/* ul,ol{
+    /* list-style: none; */
+} */
+ol{
+    list-style:lower-roman;
+}
+
+ul{
+    list-style-position: inside;
+}
