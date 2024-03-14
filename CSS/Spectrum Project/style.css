@@ -1,0 +1,39 @@
+/* CSS Spectrum project */
+h1{
+    font-family:"Ariel", sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+/* color for project
+1 #247BA0
+2 #70C1B3
+3 #B2DBBF
+4 #F3FFBD
+5 #FF1654
+ */
+td{
+    background-color: black;
+    width: 150px;
+    height: 300px;
+    border: 6px solid white;
+}
+.Spectrum_color{
+    margin: auto;
+
+}
+#one{
+    background-color: #247BA0;
+}
+#two{
+    background-color: #70C1B3;
+}
+#three{
+    background-color: #B2DBBF;
+}
+#four{
+    background-color: #F3FFBD;
+}
+#five{
+    background-color: #FF1654;
+}

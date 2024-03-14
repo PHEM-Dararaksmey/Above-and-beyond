@@ -1,0 +1,27 @@
+/* Font 
+    1em = 16px
+    2em = 32px
+
+*/
+h1{
+    font-family:"Arial";
+    font-size: larger;
+    font-weight: 500px;
+    
+}
+p{
+    font-family: monospace;
+}
+body{
+    font-size: 25px;
+}
+#two{
+    font-size: 20px;
+    font-style: italic;
+}
+p{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
