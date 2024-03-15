@@ -1,0 +1,24 @@
+/* Background lesson  */
+
+
+/* effecting the whole body of html by body tag */
+body{ 
+    /* background-color: gray; */
+    background-image: url(/img/Django\ logo.png);
+    background-repeat: repeat;
+}
+div{
+    background-color:blue;
+    border-color: orange ;
+    border-width: 2px;
+    border-style: double;
+}
+
+p{
+    color: yellow;
+}
+
+span{
+    color:black;
+    background:red;
+}

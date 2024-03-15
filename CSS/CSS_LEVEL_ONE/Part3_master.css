@@ -1,0 +1,23 @@
+
+h3{
+    color: red;
+}
+/* Change property to class by using . */
+.secondDiv{
+    color: aqua;
+}
+
+/* Chang property to the ID  */
+#Paragraph{
+    color: green;
+    text-decoration: line-through;
+}
+/* css selecter  json  */
+
+h3 + ul{
+    border:4px dotted purple;
+}
+
+li a{
+    color: red;
+}
