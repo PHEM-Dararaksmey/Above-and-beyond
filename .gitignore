@@ -1,1 +1,8 @@
 node_modules/
+#Log 
+logs
+*.log
+
+#Dependency directories 
+#Mac finder 
+.DS_Store.
